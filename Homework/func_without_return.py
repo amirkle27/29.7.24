@@ -57,6 +57,6 @@ def my_statistics (grades: list = [int]) -> None:
     \nIn total, you had {len(grades)} grades all in all")
 
 
-#f#
+
 
 
