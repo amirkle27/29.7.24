@@ -38,3 +38,12 @@ while grade != -99:
         grades_list.append(grade)
 func_without_return.my_statistics(grades_list)
 
+
+#f#
+print(" e ".center(30, "#"))
+(help(func_without_return.my_ascending))
+(help(func_without_return.my_details))
+(help(func_without_return.say_bool))
+(help(func_without_return.print_zugi))
+(help(func_without_return.my_statistics))
+
