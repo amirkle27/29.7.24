@@ -50,5 +50,17 @@ def print_zugi (a: list = [int]) -> list [str]:
     return ans
 
 
+
 #5#
+
+
+def get_int(massage=str) -> int:
+    """Gets an input of a string massage and returns an int that was given by the user"""
+    while True:
+        try:
+            x: int = int(input(f"{massage}"))
+            return x
+        except Exception:
+            pass
+
 
