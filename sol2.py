@@ -49,3 +49,10 @@ print()
 
 odd_or_even = func_with_return.print_zugi([1,2,3,4,5,6,7,8,9,0,110,101,503,-202,-11])
 print(odd_or_even)
+
+
+#5#
+print(" 5 ".center(30, "!"))
+print()
+
+print(func_with_return.get_int ("what's your number?"))
