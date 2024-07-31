@@ -61,3 +61,13 @@ def get_int(massage=str) -> int:
             return x
         except Exception:
             pass
+
+#5(e)#
+def my_statistics (massage= str) -> int:
+    """Gets data (int) from the user by his choice and returns it back to him"""
+    while True:
+        try:
+            y: int = int(input (f"{massage}"))
+            return None
+        except Exception:
+            pass
